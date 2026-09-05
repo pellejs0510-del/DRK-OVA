@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DRK Ortsverein Augustdorf e.V. - Erfahren Sie alles über unsere Arbeit, Blutspende, Kleiderstube und das Jugendrotkreuz.">
+    <title>Kleiderstube - DRK Ortsverein Augustdorf e.V.</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/Favicon.png">
+    <style>
+        body {font-family: 'Poppins', sans-serif;}
+    </style>
+
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- HAUPT-HEADER (Logo links, Titel mittig-links) -->
+    <header class="bg-white px-6 py-4 shadow-sm border-b border-gray-100 flex flex-col md:flex-row items-center gap-6 mb-4">
+        <!-- Logo -->
+        <img src="/images/DRK_Logo.png" alt="DRK Logo" class="h-16 w-auto object-contain">
+
+        <!-- Text neben dem Logo -->
+        <h1 class="text-xl md:text-2xl font-bold text-gray-800 tracking-wide text-center md:text-left">
+            Ortsverein Augustdorf e.V.
+        </h1>
+    </header>
+
+        <!-- Navigation -->
+         <nav class="w-fullbg-white border-b border-gray-200 px-6 py-3">
+             <ul class="flex flex-wrap justify-center md:justify-start gap-6 text-gray-600 font-semibold text-sm md:text-base">
+            <li><a href="/index.html" class="hover:text-red-600 transition">Startseite</a></li>
+            <li><a href="/html/angebote.html" class="hover:text-red-600 transition">Angebote</a></li>
+            <li><a href="/html/blutspende.html" class="hover:text-red-600 transition">Blutspende</a></li>
+            <li><a href="/html/kleiderstube.html" class="text-red-600 border-b-2 border-red-600 pb-1">Kleiderstube</a></li>
+            <li><a href="/html/sanitaetsdienst.html" class="hover:text-red-600 transition">Sanitätsdienst</a></li>
+            <li><a href="/html/jrk.html" class="hover:text-red-600 transition">Jugendrotkreuz</a></li>
+            <li><a href="/html/unser-ortsverein.html" class="hover:text-red-600 transition">Unser Ortsverein</a></li>
+            <li><a href="/html/aktiv-werden.html" class="hover:text-red-600 transition">Aktiv werden</a></li>
+            </ul>
+         </nav>
+    <!-- DER HAUPTBEREICH (Zentriert das Layout am PC) -->
+    <main class="max-w-7xl mx-auto px-6 py-12">
+      <!-- DIE REWE-HAUPTREIHE: Schiebt die beiden großen Karten am PC nebeneinander (50/50) -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <!-- KACHEL LINKS (50% Breite): INFOS ZUR KLEIDERSTUBE -->
+        <div
+          class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm space-y-6"
+        >
+          <div>
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">
+              👕 Kleiderstube des Ortsvereins
+            </h2>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Die Kleiderstube unseres Ortsvereins versorgt Menschen mit gut
+              erhaltener Kleidung und Schuhen sowie anderen Haushaltsartikeln.
+              Die Kleidungsstücke werden gegen eine geringe Spende, die für
+              gemeinnützige Aufgaben verwendet wird, an Bedürftige abgegeben.
+              Das Rote Kreuz verwendet dazu hauptsächlich Kleiderspenden der
+              Bevölkerung, manchmal auch Überproduktionen oder leicht
+              fehlerhafte Artikel der Industrie.
+            </p>
+          </div>
+
+          <!-- Inneres Raster für die beiden Listen (Nebeneinander in der linken Kachel) -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-2">
+            <div>
+              <p class="font-bold text-gray-800 text-sm mb-2">
+                Wer erhält Kleidung beim DRK?
+              </p>
+              <ul class="text-xs text-gray-650 space-y-1 list-disc list-inside">
+                <li>Sozialhilfeempfänger</li>
+                <li>Nichtsesshafte</li>
+                <li>Geflüchtete</li>
+                <li>Menschen in akuten Notlagen</li>
+              </ul>
+            </div>
+            <div>
+              <p class="font-bold text-gray-800 text-base mb-2">
+                Was kann man bekommen?
+              </p>
+              <ul class="text-xs text-gray-650 space-y-1 list-disc list-inside">
+                <li>Gut erhaltene Jacken und Mäntel</li>
+                <li>Kleider, Hosen, Pullover und Shirts</li>
+                <li>Schuhe und Stiefel (Sommer & Winter)</li>
+                <li>Wäsche, Bettzeug und Decken</li>
+                <li>Accessoires, Geschirr & Dekoartikel</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Die integrierte Box für die Öffnungszeiten & Adresse -->
+          <div
+            class="bg-gray-50/50 p-5 rounded-lg border border-gray-100 space-y-4"
+          >
+            <div>
+              <p
+                class="font-bold text-gray-800 text-base border-b border-gray-200 pb-1.5 mb-1.5"
+              >
+                ⏰ Öffnungszeiten
+              </p>
+              <p class="text-base font-semibold text-gray-700">Montags:</p>
+              <p class="text-base text-gray-600">13:30 Uhr – 15:30 Uhr</p>
+              <p class="text-base text-red-600 font-semibold pt-1">
+                ⚠️ In den Schulferien geschlossen!
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-bold text-gray-800 text-base border-b border-gray-200 pb-1.5 mb-1.5"
+              >
+                📍 Adresse
+              </p>
+              <p class="text-xs text-gray-600 leading-relaxed">
+                DRK-Haus Augustdorf<br />
+                Haustenbecker Straße 1<br />
+                32832 Augustdorf
+              </p>
+            </div>
+          </div>
+
+          <!-- Dein wichtiger, zweisprachiger Warnhinweis zu den Containern -->
+          <div
+            class="pt-4 border-t border-gray-200 text-sm text-gray-500 italic leading-relaxed space-y-3"
+          >
+            <div class="space-y-1">
+              <p>
+                📦 <strong>Hinweis zu den Sammelbehältern:</strong> Außerhalb
+                der Öffnungszeiten stehen Ihnen zwei Container auf dem Hof des
+                DRK-Hauses zur Verfügung, in die Sie Ihre gut erhaltene Kleidung
+                jederzeit einwerfen können.
+              </p>
+              <p
+                class="text-red-600 font-semibold bg-red-50/50 p-2 rounded border border-red-100/50 mt-1"
+              >
+                ⚠️ Achtung: Diese Container werden NICHT vom Ortsverein
+                Augustdorf geleert. Die dort eingeworfenen Kleiderspenden gehen
+                NICHT an das DRK Augustdorf!
+              </p>
+            </div>
+            <hr class="border-gray-200/60 my-2" />
+            <div class="space-y-1">
+              <p>
+                📦 <strong>Note on the collection containers:</strong> Outside
+                of opening hours, two containers are available in the courtyard
+                of the DRK house, where you can drop off your well-preserved
+                clothing at any time.
+              </p>
+              <p
+                class="text-red-600 font-semibold bg-red-50/50 p-2 rounded border border-red-100/50 mt-1"
+              >
+                ⚠️ Attention: These containers are NOT emptied by the local
+                Augustdorf chapter. The clothing donations dropped off here do
+                NOT go to the DRK Augustdorf!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ENDE KACHEL LINKS -->
+
+        <!-- KACHEL RECHTS (50% Breite): ANSPRECHPARTNERIN ERIKA HELLWEG -->
+        <div
+          class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm space-y-4"
+        >
+          <h3 class="text-xl font-bold text-gray-800 flex items-center gap-2">
+            👤 Ihre Ansprechpartnerin vor Ort
+          </h3>
+
+          <div class="space-y-1">
+            <p class="text-lg font-bold text-gray-800">Erika Hellweg</p>
+            <p class="text-sm text-gray-500 font-semibold">
+              Leiterin der DRK-Kleiderstube
+            </p>
+          </div>
+
+          <p class="text-sm text-gray-650 leading-relaxed">
+            Bei Fragen zu Kleiderspenden, der Abgabe von Haushaltsartikeln oder
+            wenn Sie selbst im Team mithelfen möchten, steht Ihnen Frau Hellweg
+            gerne zur Verfügung.
+          </p>
+
+          <!-- Kontaktdaten als kompakte, graue Box -->
+          <div
+            class="bg-gray-50/50 p-4 rounded-lg border border-gray-100 text-base text-gray-600 space-y-2.5 mt-2"
+          >
+            <p>
+              📞 <strong>Telefon:</strong>
+              <a
+                href="tel:+495237452"
+                class="text-drk-red font-semibold hover:underline"
+                >05237 / 452</a
+              >
+            </p>
+            <p>
+              📩 <strong>E-Mail:</strong>
+              <a
+                href="mailto:e.hellweg@drk-augustdorf.de"
+                class="text-drk-red font-semibold hover:underline"
+                >e.hellweg@drk-augustdorf.de</a
+              >
+            </p>
+            <p>
+              📍 <strong>Anschrift:</strong> Haustenbecker Str. 1, 32832
+              Augustdorf
+            </p>
+          </div>
+        </div>
+        <!-- ENDE KACHEL RECHTS -->
+      </section>
+      <!-- ENDE DER HAUPTREIHE -->
+    </main>
+    <!-- SEITENÜBERGREIFENDER FOOTER -->
+<footer class="bg-gray-900 text-gray-400 py-12 mt-12 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+
+        <!-- SPALTE 1: ANSCHRIFT & KONTAKT -->
+        <div class="space-y-3">
+            <p class="font-bold text-white text-base">📍 DRK Ortsverein Augustdorf e.V.</p>
+            <div class="space-y-1.5 leading-relaxed">
+                <p>DRK-Haus Augustdorf</p>
+                <p>Haustenbecker Straße 1</p>
+                <p>32832 Augustdorf</p>
+            </div>
+            <div class="pt-3 border-t border-gray-800 space-y-1 text-xs">
+                <p>📞 <strong>Telefon:</strong> <a href="tel:+495237452" class="hover:text-white transition">05237 / 452</a></p>
+                <p>✉️ <strong>E-Mail:</strong> <a href="mailto:info@drk-augustdorf.de" class="hover:text-white transition">info@drk-augustdorf.de</a></p>
+            </div>
+        </div>
+
+        <!-- SPALTE 2: EXTERNE LINKS -->
+        <div class="space-y-3">
+            <p class="font-bold text-white text-base">🔗 Weiterführende Links</p>
+            <ul class="space-y-2.5">
+                <li><a href="https://drk-lippe.de" target="_blank" class="hover:text-white transition-colors">&rarr; DRK Kreisverband Lippe e.V.</a></li>
+                <li><a href="https://drk-westfalen.de" target="_blank" class="hover:text-white transition-colors">&rarr; DRK Landesverband Westfalen-Lippe</a></li>
+                <li><a href="https://drk.de" target="_blank" class="hover:text-white transition-colors">&rarr; Deutsches Rotes Kreuz (Bundesverband)</a></li>
+            </ul>
+        </div>
+
+        <!-- SPALTE 3: RECHTLICHES & SERVICE -->
+        <div class="space-y-3">
+            <p class="font-bold text-white text-base">⚖️ Rechtliches & Service</p>
+            <ul class="space-y-2.5">
+                <li><a href="/html/impressum.html" class="hover:text-white transition-colors">&rarr; Impressum</a></li>
+                <li><a href="/html/datenschutz.html" class="hover:text-white transition-colors">&rarr; Datenschutz</a></li>
+                <li><a href="/html/kontakt.html" class="hover:text-white transition-colors">&rarr; Allgemeines Kontaktformular</a></li>
+            </ul>
+            <p class="pt-4 text-xs text-gray-500 border-t border-gray-850 mt-4">&copy; 2026 DRK Ortsverein Augustdorf e.V.</p>
+        </div>
+
+    </div>
+</footer>
+
+  </body>
+</html>

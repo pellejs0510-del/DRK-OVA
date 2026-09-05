@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .header_text {
+    width: 850px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  .pic {
+    height: 520px;
+    width: 600px;
+
+    max-width: 80vw;
+    max-height: 80vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pic img {
+    height: 580px;
+    width: 650px;
+    object-fit: cov;
+  }
+  header h1 {
+    text-shadow: 2px 2px 4px var(--darker-background-color);
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
